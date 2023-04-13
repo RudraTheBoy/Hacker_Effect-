@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Space Mono', monospace;
+    color: blueviolet;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    line-height: 200px;
+}
+h1:hover{
+    background-color: #fff;
+    border-radius: 2rem;
+}
